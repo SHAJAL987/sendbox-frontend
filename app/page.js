@@ -16,7 +16,7 @@ function MatrixBackground() {
     let width = (canvas.width = window.innerWidth);
     let height = (canvas.height = window.innerHeight);
 
-    const letters = 'アァイウエオカキクケコサシスセソタチツテトナニヌネノ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    const letters = 'アァイウエオカキクケコサシスセソタチツテトナニヌネノকখগঘঙচছজঝঞটঠডঢণত0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
     const fontSize = 16;
     const columns = Math.floor(width / fontSize);
